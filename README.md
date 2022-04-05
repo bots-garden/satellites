@@ -26,5 +26,5 @@ wapm login ${WAPM_REGISTRY_TOKEN}
 cd hello-world
 wapm init
 # ...
-
+wapm publish
 ```
