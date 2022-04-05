@@ -1,11 +1,17 @@
+tasks:
+  - name: initialize
+    before: |
+      echo "🚀"
+      sudo apt install libncurses5 libxkbcommon0 libtinfo5 libnss3-tools -y
+      curl https://get.wasmer.io -sSfL | sh 
+    init: |
+      echo "🚀"
+
 ports:
-    # Alcor reverse proxy 
   - port: 8080
     visibility: public
-    # Procyon
   - port: 9090
     visibility: public
-    # Venusia Registry
   - port: 9999
     visibility: public
 
