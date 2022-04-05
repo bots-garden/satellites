@@ -4,6 +4,8 @@ tasks:
       echo "🚀"
       sudo apt install libncurses5 libxkbcommon0 libtinfo5 libnss3-tools -y
       curl https://get.wasmer.io -sSfL | sh 
+      source /home/gitpod/.wasmer/wasmer.sh
+      sudo echo "source /home/gitpod/.wasmer/wasmer.sh" >> $HOME/.bashrc
     init: |
       echo "🚀"
 
