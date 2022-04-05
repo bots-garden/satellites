@@ -1,0 +1,19 @@
+ports:
+    # Alcor reverse proxy 
+  - port: 8080
+    visibility: public
+    # Procyon
+  - port: 9090
+    visibility: public
+    # Venusia Registry
+  - port: 9999
+    visibility: public
+
+vscode:
+  extensions:
+    - wayou.vscode-todo-highlight
+    - pkief.material-icon-theme
+    - golang.go
+    - grain-lang.vscode-grain
+    - rust-lang.rust
+
