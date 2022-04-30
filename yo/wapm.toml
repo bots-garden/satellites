@@ -1,0 +1,10 @@
+[package]
+name = "k33g/yo"
+version = "1.0.1"
+description = "wasm module (Runnable) for sat"
+license = "MIT"
+repository = "https://github.com/bots-garden/satellites"
+
+[[module]]
+name = "yo"
+source = "yo.wasm"
